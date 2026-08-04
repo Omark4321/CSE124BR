@@ -1,0 +1,19 @@
+<div class="lesson-card">
+  <div class="lesson-meta">
+    <span class="lesson-hash">#{{ include.lesson.path | slugify | slice: 0, 7 }}</span>
+    <span>{{ include.lesson.date | date: "%b %-d, %Y" }}</span>
+  </div>
+  <h2 class="lesson-title"><a href="{{ include.lesson.url | relative_url }}">{{ include.lesson.title }}</a></h2>
+  <p class="lesson-desc">{{ include.lesson.excerpt | strip_html | truncatewords: 30 }}</p>
+  <ul class="diffstat">
+    {% if include.lesson.video %}
+    <li class="video"><span class="tag">+</span> video</li>
+    {% endif %}
+    {% if include.lesson.doc %}
+    <li class="doc"><span class="tag">+</span> doc/slides</li>
+    {% endif %}
+    {% if include.lesson.project %}
+    <li class="project"><span class="tag">+</span> project</li>
+    {% endif %}
+  </ul>
+</div>
