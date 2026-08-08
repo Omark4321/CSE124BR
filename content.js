@@ -5,6 +5,7 @@
 const videos = [
   "https://youtu.be/_AxDb1LOP4Y",
   "https://youtu.be/L0YpIINkoRs",
+  "https://youtu.be/vCeMJNWTeWo",
 ];
 
 // Put image files inside the photos/ folder, then list their filenames here.
