@@ -11,7 +11,7 @@ const videos = [
   "https://youtu.be/cOns2ZazVYM",
   "https://youtu.be/jxkQFMgUacE",
   "https://youtu.be/f-AyN-04Q1Q",
-  "https://youtu.be/NkgiJktlLPM"'
+  "https://youtu.be/NkgiJktlLPM",
   "https://youtu.be/1WuRzb9hp6U",
 ];
 
